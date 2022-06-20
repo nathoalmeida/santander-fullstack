@@ -1,8 +1,47 @@
-#title, subtitle, post_title {
-    color:blueviolet;
+body {
+    background: #ccc;
+    font-family: Verdana; 
+}
+
+a {
+    text-decoration:underline;
+    text-decoration-style:dotted;
+    text-decoration-thickness: 1px;
+    color: blueviolet;
+}
+#title, .subtitle, .post_title 
+{
+    color:black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.photo {
+    border-radius: 50%;
+    border: 1px solid #000;
+
 }
 
 .post_title {
+    
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
+
+.post {
+    font-size: 14px;
+    background: #fff;
+    padding: 15px;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
