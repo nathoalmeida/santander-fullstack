@@ -1,6 +1,8 @@
 body {
     background: #ccc;
     font-family: Verdana; 
+    max-width: 900px;
+    margin: auto;
 }
 
 a {
@@ -9,6 +11,7 @@ a {
     text-decoration-thickness: 1px;
     color: blueviolet;
 }
+
 #title, .subtitle, .post_title 
 {
     color:black;
@@ -43,5 +46,10 @@ a {
     margin: 0;
     margin-bottom: 10px;
     border-radius: 2px;
+    text-align: justify;
 }
 
+.contacts_list {
+    list-style-type: none;
+    padding: 15px;
+}
