@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+    <head>
+<meta charset="utf-8">
+<title>Flex wrap</title>
+
+<style>
+    .flex-container {
+        display: flex;
+        height: 150px;
+        border: 1px solid black;
+        max-width: 300px;
+
+    }
+
+    .item {
+        font-size: 24px;
+        height: 50%;
+        text-align: center;
+        width: 100px;
+        line-height: 50px;
+        min-width: 100px;
+    }
+
+    .nowrap {
+        flex-wrap: nowrap;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+ 
+    .blue {
+        background-color: blueviolet;
+
+    }
+
+    .orange {
+        background-color: orange;
+    }
+
+    .green {
+        background-color: green;
+    }
+</style>
+    </head>
+    <body>
+        <h1>no wrap</h1>
+
+        <div class="flex-container nowrap">
+            <div class="item blue">1</div>
+            <div class="item orange">2</div>
+            <div class="item green">3</div>
+            <div class="item orange">4</div>
+            <div class="item blue">5</div>
+            <div class="item green">6</div>
+            <div class="item green">7</div>
+            <div class="item green">8</div>
+            <div class="item green">9</div>
+            <div class="item green">10</div>
+            <div class="item green">11</div>
+            <div class="item green">12</div>
+            <div class="item green">13</div>
+        </div>
+        <h1>no wrap</h1>
+
+        <div class="flex-container wrap">
+            <div class="item blue">1</div>
+            <div class="item orange">2</div>
+            <div class="item green">3</div>
+            <div class="item orange">4</div>
+            <div class="item blue">5</div>
+            <div class="item green">6</div>
+            <div class="item green">7</div>
+            <div class="item green">8</div>
+            <div class="item green">9</div>
+            <div class="item green">10</div>
+            <div class="item green">11</div>
+            <div class="item green">12</div>
+            <div class="item green">13</div>
+        </div>
+    </body>
+
+</html>
