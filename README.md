@@ -1,7 +1,7 @@
 # santander-fullstack
 
-**Repositório para documentação de desafios do Santander Bootcamp Fullstack Dev - DIO**
+**Repository for challenges documentation from Santander Fullstack Dev  Bootcamp - DIO**
 
-:arrow_forward: A criação do presente repositório faz parte do desafio de projeto do Módulo I do Santander Bootcamp
+:arrow_forward: The creation of this repository is part of a project challenge from this bootcamp;
 
-:arrow_forward: Neste repositório, estão documentados os desafios e exercícios práticos realizados durante o Bootcamp, entre o período de maio a agosto de 2022.
+:arrow_forward: In this repository, are documented challenges and coding exercises made during the bootcamp, between May to August 2022.
